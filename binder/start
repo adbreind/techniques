@@ -1,0 +1,12 @@
+#!/bin/bash
+
+# Replace DASK_DASHBOARD_URL with the proxy location
+sed -i -e "s|DASK_DASHBOARD_URL|${JUPYTERHUB_BASE_URL}user/${JUPYTERHUB_USER}/proxy/8787|g" binder/jupyterlab-workspace.json
+
+# Import the workspace
+jupyter lab workspaces import binder/jupyterlab-workspace.json
+
+SPARK_HOME=$HOME/spark-2.4.4-bin-hadoop2.7
+export PATH=$SPARK_HOME/bin:$PATH
+
+exec "$@" 

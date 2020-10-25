@@ -1,0 +1,16 @@
+name: techniques
+channels:
+  - conda-forge
+dependencies:
+  - python=3.8
+  - jupyterlab
+  - pip
+  - dask
+  - dask-ml
+  - jupyterlab
+  - nodejs
+  - dask_labextension
+  - pip:
+    - pyspark
+    - toree
+#    - jupyter-server-proxy
