@@ -7,7 +7,6 @@ dependencies:
   - pip
   - dask
   - dask-ml
-  - jupyterlab
   - nodejs
   - dask_labextension
   - pip:
