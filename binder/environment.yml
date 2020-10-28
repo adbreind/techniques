@@ -11,5 +11,11 @@ dependencies:
   - dask_labextension
   - pip:
     - pyspark
-    - toree
+#    - toree
+#    - gym
+    - ray[rllib]
+    - tensorflow
+#    - torch
+#    - torchvision
+#    - cpuonly
 #    - jupyter-server-proxy
