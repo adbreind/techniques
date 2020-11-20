@@ -13,3 +13,4 @@ dependencies:
   - pip:
     - pyspark
     - tensorflow
+    - ray[rllib]
