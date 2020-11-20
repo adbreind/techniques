@@ -11,6 +11,5 @@ dependencies:
   - dask_labextension
   - gym
   - pip:
-    - pyspark    
-    - ray[rllib]
+    - pyspark
     - tensorflow
