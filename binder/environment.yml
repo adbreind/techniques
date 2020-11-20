@@ -9,8 +9,8 @@ dependencies:
   - dask-ml
   - nodejs
   - dask_labextension
+  - gym
   - pip:
-    - pyspark
-    - gym
+    - pyspark    
     - ray[rllib]
     - tensorflow
