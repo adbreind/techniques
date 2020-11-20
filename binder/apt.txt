@@ -1,1 +1,5 @@
 openjdk-8-jre-headless
+freeglut3-dev
+xvfb
+x11-utils
+libgl1-mesa-glx
