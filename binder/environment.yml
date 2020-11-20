@@ -5,7 +5,9 @@ dependencies:
   - python=3.7
   - jupyterlab
   - pip
+  - dask
   - pip:
     - gym
     - ray[rllib]
     - tensorflow
+    - pyspark
