@@ -6,6 +6,7 @@ dependencies:
   - jupyterlab
   - pip
   - dask
+  - dask-ml
   - pip:
     - gym
     - ray[rllib]
