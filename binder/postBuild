@@ -1,8 +1,7 @@
 #!/bin/bash
 
-#jupyter labextension install --minimize=False --clean \
-#    dask-labextension \
-#    @jupyter-widgets/jupyterlab-manager
+jupyter labextension install --minimize=False --clean \
+    dask-labextension \
+    @jupyter-widgets/jupyterlab-manager
 
-#Jupyter server proxy
-#jupyter serverextension enable --sys-prefix jupyter_server_proxy
+jupyter serverextension enable --sys-prefix jupyter_server_proxy
