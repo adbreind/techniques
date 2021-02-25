@@ -1,0 +1,4 @@
+distributed:
+  dashboard:
+    link: "{JUPYTERHUB_BASE_URL}user/{JUPYTERHUB_USER}/proxy/{port}/status"
+

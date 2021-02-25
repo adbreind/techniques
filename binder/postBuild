@@ -1,7 +1,6 @@
 #!/bin/bash
 
+# Install dask and ipywidgets JupyterLab extensions
 jupyter labextension install --minimize=False --clean \
     dask-labextension \
     @jupyter-widgets/jupyterlab-manager
-
-jupyter serverextension enable --sys-prefix jupyter_server_proxy
