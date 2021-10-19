@@ -4,10 +4,11 @@ channels:
 dependencies:
   - python=3.9
   - jupyterlab
+  - bokeh=2.2.3
   - pip
-  - dask=2021.8.1
-  - dask-ml
-  - nodejs
+  - dask=2021.2.0
+  - distributed=2021.2.0
+  - dask-ml=1.8.0
   - dask_labextension
   - pip:
     - gym
