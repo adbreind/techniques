@@ -2,15 +2,16 @@ name: techniques
 channels:
   - conda-forge
 dependencies:
-  - python=3.7
+  - python=3.9
   - jupyterlab
   - pip
-  - dask
+  - dask=2021.8.1
   - dask-ml
   - nodejs
   - dask_labextension
   - pip:
     - gym
+    - ray[default]
     - ray[rllib]
     - tensorflow
     - pyspark
