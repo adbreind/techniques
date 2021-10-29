@@ -12,7 +12,6 @@ dependencies:
   - dask_labextension=5.0.0
   - pip:
     - gym
-    - ray[default]==1.2.0
     - ray[rllib]==1.2.0
     - tensorflow==2.4.1
     - pyspark
