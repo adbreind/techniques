@@ -2,7 +2,7 @@ name: techniques
 channels:
   - conda-forge
 dependencies:
-  - python=3.9
+  - python=3.8
   - jupyterlab
   - bokeh=2.2.3
   - pip
@@ -13,8 +13,8 @@ dependencies:
   - nodejs
   - pip:
     - gym
-    - ray[rllib]==1.4.1
-    - tensorflow==2.5.0
+    - ray[rllib]==1.2.0
+    - tensorflow==2.4.1
     - pyspark
     - mlflow
 
