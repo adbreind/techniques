@@ -10,9 +10,10 @@ dependencies:
   - distributed=2021.2.0
   - dask-ml=1.8.0
   - dask_labextension=5.0.0
+  - nodejs
   - pip:
     - gym
-    - ray[rllib]==1.2.0
+    - ray[rllib]==1.4.1
     - tensorflow==2.4.1
     - pyspark
     - mlflow
